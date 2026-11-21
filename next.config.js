@@ -7,6 +7,11 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: "/server",
+        destination: "https://discord.gg/rnD8HQDDz3",
+        permanent: false,
+      },
+      {
         source: "/support-server/kcs",
         destination: "https://discord.gg/rnD8HQDDz3",
         permanent: false,

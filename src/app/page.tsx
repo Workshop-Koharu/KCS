@@ -134,7 +134,7 @@ export default function KcsPortal() {
               프로젝트
             </Link>
             <a
-              href="https://kcs.koharu.live/support-server/kcs"
+              href="https://kcs.koharu.live/server"
               target="_blank"
               rel="noreferrer"
               className="hover:text-white transition flex items-center gap-1.5"
@@ -159,7 +159,7 @@ export default function KcsPortal() {
               <span>GitHub</span>
             </a>
             <a
-              href="https://kcs.koharu.live/support-server/kcs"
+              href="https://kcs.koharu.live/server"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-2 rounded-xl bg-[#5865F2] px-4 py-1.5 text-xs font-semibold text-white hover:bg-[#4752c4] transition shadow-sm"
@@ -199,7 +199,7 @@ export default function KcsPortal() {
                 <ArrowRight className="h-4 w-4" />
               </a>
               <a
-                href="https://kcs.koharu.live/support-server/kcs"
+                href="https://kcs.koharu.live/server"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-2 rounded-xl border border-white/[0.1] bg-[#141622] px-5 py-2.5 text-sm font-semibold text-white hover:bg-[#1a1d2c] transition"
@@ -381,7 +381,7 @@ export default function KcsPortal() {
               개인정보처리방침 & 약관
             </Link>
             <a
-              href="https://kcs.koharu.live/support-server/kcs"
+              href="https://kcs.koharu.live/server"
               target="_blank"
               rel="noreferrer"
               className="hover:text-white transition"
