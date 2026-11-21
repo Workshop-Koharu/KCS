@@ -227,12 +227,12 @@ export default function KcsPortal() {
             {/* Category Filter Pills */}
             <div className="mt-6 flex flex-wrap items-center gap-2">
               {[
-                { id: "all", label: "◆ 전체" },
-                { id: "bot", label: "◆ 디스코드 봇" },
-                { id: "gaming", label: "◆ 게이밍" },
-                { id: "dev", label: "◆ 개발 도구" },
-                { id: "geo", label: "◆ 공간/지도" },
-                { id: "ai", label: "◆ AI 연구" },
+                { id: "all", label: "전체" },
+                { id: "bot", label: "디스코드 봇" },
+                { id: "gaming", label: "게이밍" },
+                { id: "dev", label: "개발 도구" },
+                { id: "geo", label: "공간/지도" },
+                { id: "ai", label: "AI 연구" },
               ].map((c) => (
                 <button
                   key={c.id}
