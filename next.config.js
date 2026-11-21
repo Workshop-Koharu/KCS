@@ -4,6 +4,15 @@ const nextConfig = {
   images: {
     domains: ["cdn.discordapp.com", "raw.githubusercontent.com"],
   },
+  async redirects() {
+    return [
+      {
+        source: "/support-server/kcs",
+        destination: "https://discord.gg/rnD8HQDDz3",
+        permanent: false,
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
